@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Quick Link Copier (Simple)",
+    "version": "1.0",
+    "description": "Right‑click selected text to search with Google I’m Feeling Lucky and copy the final URL to clipboard.",
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "clipboardWrite",
+      "notifications"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icon48.png"
+    }
+  }
+  
